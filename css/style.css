@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(191, 235, 191);
+}
+
+p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
