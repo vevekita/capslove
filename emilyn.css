@@ -1,0 +1,32 @@
+
+body{
+    background-color: rgb(193, 226, 223);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-style: italic;
+}
+.eu{
+   background-image: linear-gradient( plum ,rgb(193, 226, 223));
+   text-align: flex;
+   padding: 100px 100px;
+}
+.coisas{
+    
+    color: black;
+    display: flex;
+    padding: 0 10px;
+}
+.nos{
+   text-align: center;
+    text-align: flex;
+    padding: 50px 100px;
+ }
+ .sla{
+    text-align: center;
+     color: black;
+    
+     padding: 0 10px;
+ }
+
+
