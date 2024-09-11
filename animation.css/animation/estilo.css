@@ -1,0 +1,42 @@
+.html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(45deg, #9a16f2 0%, #4951f2 100%);
+    margin: 0;
+}
+
+.container{
+    width: 500px;
+    height:500px;
+    border-radius: 100px;
+    background: #fff;
+    margin: 30px auto 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball,
+.shadow {
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ border-radius: 100px;
+}
+
+.ball{
+    background: radial-gradient(circle at 60% 30%,#d8ffc3 0%,#85ffdb 70%);
+    box-shadow: 
+    rgba(0,0,0,0.1) 0px 7px 13px -3px inset,
+    rgb(0,0,0,0.12) -2px -6px 0px inset;
+}
+
+.shadow{
+    background: red;
+
+    transform: rotateX(70deg) scaleY(1.8);
+    box-shadow: rgba(0,0,0,0.075 -10px 100px );
+}
